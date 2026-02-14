@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-family: "Oxanium", sans-serif;
+	background-color: hsl(0, 0%, 95%);
+	color: #333333;
+
+}
+
+header{
+	font-size: 30px;
+	padding: 5px 10px;
+	font-weight: bolder;
+	background-color: hsl(0, 0%, 98%);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px, rgba(0, 0, 0, 0.06) 0px 1px 1px 0px;
+}
+.headerMainTitle{
+	width: fit-content;
+	padding: 5px 10px;
+	border-radius: 12px;
+	display: flex;
+	
+
+}
+
+.headerMainTitle > span:nth-of-type(1){
+	color:#0466C8;
+}
+
+.headerMainTitle	> span:nth-of-type(2){
+	color:#023E7D !important;
+}
+
+.MainTitle{
+	font-size: 50px;
+	padding: 2.5px 15px;
+	font-weight: bold;
+}
