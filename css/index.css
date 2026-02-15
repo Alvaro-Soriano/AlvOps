@@ -7,12 +7,13 @@ html,body{
 }
 *{
 	font-family: "Sora", sans-serif;
+	color:#cccccc;
 }
 
 header{
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-style: normal;
+	font-optical-sizing: auto;
+	font-weight: bold;
+	font-style: normal;
 	background-color: hsl(0, 0%, 9%);
 	color:white;
 	font-size: 30px;
@@ -35,25 +36,25 @@ header{
 	color:hsl(0, 0%, 70%);
 }
 .headerLinks > a:hover{
-		color:hsl(0, 0%, 88%);
+	color:hsl(0, 0%, 88%);
 
 }
 
-.landingName{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+article{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 
-  background-color: hsl(0, 0%, 9%);
-  box-sizing: border-box;
-  max-width: 1600px;
-  width: calc(100% - 30px);
+	background-color: hsl(0, 0%, 9%);
+	box-sizing: border-box;
+	max-width: 1600px;
+	width: calc(100% - 30px);
 	margin-top: 10px;
-  margin-inline: auto;
-  padding: clamp(16px, 3vw, 25px);
-  border-radius: 10px;
-  border: 1px solid rgba(255, 255,255 , 12%);
+	margin-inline: auto;
+	padding: clamp(16px, 3vw, 25px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255,255 , 12%);
 }
 
 .landingName > h1{
@@ -72,25 +73,66 @@ header{
 }
 
 .landingButtons{
-  margin: 25px;
-  display: grid;
-  gap: 12px;  
-  grid-template-columns: repeat(auto-fit, 180px);
-  justify-content: center;  
+	margin: 25px;
+	display: grid;
+	gap: 12px;  
+	grid-template-columns: repeat(auto-fit, 180px);
+	justify-content: center;  
 	width: 100%;
 }
 
 .landingButton{
-  font-size: 20px;
+	font-size: 20px;
 	background: #023E7D;
-	background: linear-gradient(140deg,rgba(2, 62, 125, 1) 0%, rgba(2, 62, 125, 1) 45%, rgba(3, 83, 164, 1) 100%);
+	background: linear-gradient(140deg,#023e7d 0%, #023e7d 45%, #0353a4 100%);
 	padding: 10px;
-  border-radius: 8px;
-  color:white;
-  text-align: center;
-  font-weight: 500;
-  display: flex;
-  gap: 5px;
-  justify-content: center;
-  align-items: center;
+	border-radius: 8px;
+	color:white;
+	text-align: center;
+	font-weight: 500;
+	display: flex;
+	gap: 5px;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.subArticle{
+	align-items: start !important;
+	padding: clamp(8px, 1vw, 12px);
+}
+
+.subArticle > h2{
+	margin: 10px;
+	color:hsl(0, 0%, 90%);
+	display: flex;
+	align-items: center;
+	gap:7px;
+	font-size: 26px;
+}
+.titleCircle{
+	width: 20px;
+	height: 20px;
+	background-color: rgba(3, 83, 164, 1);
+	border-radius: 20px;
+}
+
+.subArticleContent{
+	padding: 5px 15px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.subArticle  img{
+	width: 220px;
+	background-color: rgba(255, 255,255 , 2%);
+	border: 2px solid rgba(255, 255,255 , 12%);
+	border-radius: 10px;
+
+}
+.subArticleContent p{
+
+	font-size: 19px;
+	margin: 0px;
 }
