@@ -1,5 +1,10 @@
 .cardCont{
-	margin: 5px 15px;
+
+  margin: 5px auto;
+  max-width: 1200px;
+  padding: 0 15px;
+
+	
 	display: grid;
 	grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
 	gap:20px;
@@ -7,7 +12,7 @@
 
 .card{
 	box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
-	min-height: 350px;
+	min-height: 320px;
 	border-radius: 10px;
 	background-color: white;
 }
@@ -26,7 +31,7 @@
   box-sizing: border-box;
 }
 .cardImg > i{
-	font-size: 80px;
+	font-size: 100px;
 	color:white;
 }
 
@@ -50,8 +55,8 @@
 }
 .cardText {
   display: -webkit-box;
-  -webkit-line-clamp: 4;
-	line-clamp: 4;
+  -webkit-line-clamp: 6;
+	line-clamp: 6;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
