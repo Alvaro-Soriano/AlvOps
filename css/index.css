@@ -193,3 +193,32 @@ article{
 .empresaDescrip > p{
 	font-size: 17px;
 }
+
+
+
+.habilidadesCont{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+	padding: 15px;
+}
+
+.bloqueHabilidad{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 8px;
+	background-color: rgba(255, 255,255 , 2%);
+	border: 2px solid rgba(255, 255,255 , 12%);
+	border-radius: 10px;
+	padding: 10px;
+}
+.bloqueHabilidad > i{
+	font-size: 50px;
+	color: #0466c8ff;
+}
+
+.habTexto{
+	color: hsl(0, 0%, 95%);
+	font-weight: bold;
+}
